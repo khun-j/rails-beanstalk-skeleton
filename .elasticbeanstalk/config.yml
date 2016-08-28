@@ -1,0 +1,14 @@
+branch-defaults:
+  master:
+    environment: blog-env
+    group_suffix: null
+  staging:
+    environment: staging2
+    group_suffix: null
+global:
+  application_name: BeanstalkRails
+  default_ec2_keyname: null
+  default_platform: Ruby 2.3 (Puma)
+  default_region: ap-southeast-1
+  profile: null
+  sc: git
